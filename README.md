@@ -1,6 +1,6 @@
 <div align="center">
 
-# ERC721 Yield Farming
+# ERC721 Staking
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,7 +11,7 @@
 The repository contains contracts for farming with any ERC721 compatible NFTs. Any specified ERC-721 can be used to farm any ERC-20 compatible tokens, by
 depositing/locking them into the ERC721Staking contract that uses ERC-721 instead of the normal ERC-20 token.
 The basis of the staking contract is the stripped down version of
-Synthetix's [StakingRewards](https://solidity-by-example.org/defi/staking-rewards/) contract and modified version of EnterDAO's [LandWorks-YF-Contracts](https://github.com/EnterDAO/LandWorks-YF-Contracts)
+Synthetix's [StakingRewards](https://solidity-by-example.org/defi/staking-rewards/) contract and modified version of EnterDAO's [LandWorks-YF-Contracts](https://github.com/EnterDAO/LandWorks-YF-Contracts). Credit to [EnterDAO](https://enterdao.xyz/) and [Synthetix](https://synthetix.io/).
 
 NFT owners can stake or withdraw his/hers NFTs at any time.
 
